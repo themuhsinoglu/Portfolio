@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    internal class Service
+    public class Service
     {
+        public int ServiceID { get; set; }
+        public string Title { get; set; }
+        public string ImageURL { get; set; }
     }
 }
