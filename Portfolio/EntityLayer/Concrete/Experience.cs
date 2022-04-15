@@ -14,6 +14,9 @@ namespace EntityLayer.Concrete
         public string Name { get; set; }
         public string Description { get; set; }
         public string ImageURL { get; set; }
-        public string Date { get; set; }
+        public int StartDate { get; set; }
+       
+        public int? FinishDate { get; set; }
+        public string Position { get; set; }
     }
 }
